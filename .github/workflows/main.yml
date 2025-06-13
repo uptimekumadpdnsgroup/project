@@ -1,10 +1,10 @@
-name: Winku
+name: Winkas
 
 on: [push, workflow_dispatch]
 
 jobs:
   build:
-    runs-on: winku
+    runs-on: winkas
 
     steps:
     - name: Download Ngrok
